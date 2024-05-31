@@ -207,3 +207,23 @@ body {
 .change-color {
   color: red;
 }
+
+/* Styles for devices with a width of 768px or less */
+@media only screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100%;
+  }
+}
+
+/* Styles for devices with a width of 540px or less */
+@media only screen and (max-width: 540px) {
+  .x-icon {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
